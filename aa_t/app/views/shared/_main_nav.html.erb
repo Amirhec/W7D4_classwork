@@ -1,19 +1,26 @@
 <header class="main-nav">
 	<nav class="left-nav">
 		<ul>
-      <li data-controller="sections-sidebar"> 
-        <div id="sections-sidebar-btn" data-action="click->sections-sidebar#toggleSidebar">
+		<div class="final-hail-mary">
+		<div class="top-nav">
+      		<li data-controller="sections-sidebar"> 
+      	  <div id="sections-sidebar-btn" data-action="click->sections-sidebar#toggleSidebar">
           <i class="fa-solid fa-bars"></i>
           <span>sections</span>
         </div>
       </li>
-			<li data-controller="modal">
-        <div id="search-modal-btn" data-action="click->modal#toggleModal">
-          <i class="fa-solid fa-magnifying-glass"></i>
-          <span>search</span>
+	  </div>
+	  <div class="mid-nav">
+		<li data-controller="modal">
+        	<div id="search-modal-btn" data-action="click->modal#toggleModal">
+        	  <i class="fa-solid fa-magnifying-glass"></i>
+        	  <span>search</span>
         </div>
 			</li>
 		</ul>
+		</div>
+		</div>
+		<div class="right-nav-div">
 		<nav class="right-nav">
 			<ul>
 				<li>
@@ -21,9 +28,8 @@
 			</ul>
 			<button type="button">Subscribe Now</button>
 			<button type="button">Log In</button>
-			<i class = "fa-solid fa-gear"></i>
-			
+		<i class = "fa-solid fa-gear"></i>
 		</nav>
+		</div>
 	</nav>
-
 </header>

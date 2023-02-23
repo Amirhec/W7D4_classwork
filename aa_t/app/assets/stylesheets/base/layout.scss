@@ -13,6 +13,24 @@ body {
 	font-size: 12px; 
 }
 
+.left-nav {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.final-hail-mary {
+	display: flex;
+	justify-content: flex-start;
+	gap: 10px;
+	
+}
+
+
+.left-nav {
+}
+
+
 button {
 	background-color: #6288a5;
 	border-color: #4d7b9f;
@@ -26,6 +44,7 @@ button {
 	cursor: pointer;
 	display: inline-block;
 	font-weight: 700;
+
 }
 
 #sections-sidebar-btn{
@@ -82,3 +101,4 @@ hr {
 	height: 2px;
 	margin-bottom: 1px;
 }
+
