@@ -3,13 +3,14 @@
 .masthead {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
 }
 
 .language-nav {
-	position: absolute;
+	// position: absolute;
 	top: -15px;
 	left: calc(50% - (177.78px/2));
 	background: white;
@@ -17,6 +18,8 @@
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+	align-items: column;
+	
 
 	a {
 		margin: 0 5px;
@@ -28,6 +31,11 @@
 
 	ul {
 		display: flex;
+		align-items: row;
+	}
+
+	ul li{
+		padding: 10px;
 	}
 }
 
@@ -73,5 +81,7 @@
 	strong {
 		color: green;
 	}
+
+	
 
 }

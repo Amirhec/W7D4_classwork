@@ -16,7 +16,8 @@ body {
 .left-nav {
 	display: flex;
 	justify-content: space-between;
-
+	margin: 40 px;
+	margin-top: 20px;
 }
 
 .final-hail-mary {
@@ -26,16 +27,18 @@ body {
 	
 }
 
-
-.left-nav {
+body{
+	min-height: 100%;
 }
+
+
 
 
 button {
 	background-color: #6288a5;
 	border-color: #4d7b9f;
 	color: #fff;
-	padding: 7px, 9px;
+	padding: 10px, 12px;
 	border-radius: 3px;
 	transition: background-color 0.3s;
 	font-family: inherit;
@@ -44,6 +47,7 @@ button {
 	cursor: pointer;
 	display: inline-block;
 	font-weight: 700;
+	
 
 }
 
@@ -59,6 +63,7 @@ button {
 	cursor: pointer;
 	display: inline-block;
 	font-weight: 700;
+	
 
 }
 
@@ -78,7 +83,7 @@ button {
 }
 
 button:hover {
-	// background-color:
+	background-color: $lightest-gray;
 	// border-color:
 }
 
@@ -100,5 +105,11 @@ hr {
 .hr-top {
 	height: 2px;
 	margin-bottom: 1px;
+}
+
+.fa-gear{
+font-size: 16px;
+position: relative;
+top: 3px;
 }
 
