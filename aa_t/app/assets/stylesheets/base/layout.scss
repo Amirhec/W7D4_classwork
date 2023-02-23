@@ -14,17 +14,48 @@ body {
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	background-color: #6288a5;
+	border-color: #4d7b9f;
+	color: #fff;
+	padding: 7px, 9px;
+	border-radius: 3px;
+	transition: background-color 0.3s;
+	font-family: inherit;
+	text-transform: uppercase;
+	font-size: 11px;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+}
+
+#sections-sidebar-btn{
+	background-color: transparent;
+	color: #333;
+	padding: 7px, 9px;
+	border-radius: 3px;
+	transition: background-color 0.3s;
+	font-family: inherit;
+	text-transform: uppercase;
+	font-size: 11px;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+
+}
+
+#search-modal-btn{
+	background-color: transparent;
+	color: #333;
+	padding: 7px, 9px;
+	border-radius: 3px;
+	transition: background-color 0.3s;
+	font-family: inherit;
+	text-transform: uppercase;
+	font-size: 11px;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+
 }
 
 button:hover {
